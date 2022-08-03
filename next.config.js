@@ -7,6 +7,8 @@
     path: '',
   },
   assetPrefix: './',
+  basePath : '/nextjs-test',
+  assetPrefix: '/nextjs-test'
 };
 
 export default   nextConfig;
