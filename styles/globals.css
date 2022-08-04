@@ -23,7 +23,7 @@ a {
 }
 
 .main {
-  padding: 4rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -36,13 +36,11 @@ a {
 }
 
 .footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
+  text-align: center;
+  flex: 1 1;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-  font-size: .6rem;
+  font-size: .7rem;
 }
 
 .footer a {
@@ -65,7 +63,7 @@ a {
 
 .title {
   margin: 0;
-  line-height: 1.15;
+  line-height: 2;
   font-size: 2rem;
 }
 
@@ -125,6 +123,38 @@ a {
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+
+.social {
+  align-items: center;
+}
+
+.socials {
+  padding: 0;
+  list-style: none;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 5px;
+}
+
+.socials li a
+{
+  display: block;
+  padding: 0.5rem 0.5rem 0.3rem 0.5rem;
+  color: #333;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: all 0.1s ease-in-out 0.1s;
+}
+
+.socials li a:hover
+{
+    background-color: #e8a554;
+    color: #fff;
 }
 
 @media (max-width: 600px) {
