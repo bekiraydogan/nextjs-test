@@ -11,9 +11,12 @@ export default function Home() {
       </Head>
 
       <main className="main">
-        <h1 className="title">
-          <b>Bekir AYDOĞAN 👋</b>
-        </h1>
+        <h3 className="title">
+          Bekir Aydoğan 💻
+        </h3>
+        <p>🏛️ Sakarya Üniversitesi Bilgisayar Mühendisliğinden mezun oldum.</p>
+        <p>İstanbul'da .Net Developer olarak çalışmaktayım.</p>
+        <p>📷 Fotoğraf çekmeye, 🌳 doğaya, 🎧 müziğe, 📖 şiire aşığım.</p>
       </main>
 
       <footer className="footer">
@@ -22,7 +25,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by as66
+          Made with ❤️ by Bekir AYDOĞAN © 2022 All rights reserved.
         </a>
       </footer>
     </div>
